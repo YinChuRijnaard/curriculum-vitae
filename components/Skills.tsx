@@ -1,9 +1,10 @@
+import { nanoid } from "nanoid";
 import { SkillItem } from "./SkillItem";
 import { skills } from "../data/skills";
 
 export const Skills = () => {
   const skillsMapped = skills.map((skill) => {
-    return <SkillItem skill={skill} />;
+    return <SkillItem key={nanoid()} skill={skill} />;
   });
 
   return (
