@@ -6,6 +6,7 @@ import { Contact } from "../components/Contact";
 import { Skills } from "../components/Skills";
 import { Experience } from "../components/Experience";
 import { Education } from "../components/Education";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <Skills />
         <Experience />
         <Education />
+        <Footer />
       </main>
     </>
   );
