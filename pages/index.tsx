@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Hero } from "../components/Hero";
 import { Contact } from "../components/Contact";
 import { Skills } from "../components/Skills";
+import { Experience } from "../components/Experience";
 
 const Home: NextPage = () => {
   return (
@@ -17,10 +18,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen w-screen border-8 border-neutral-600">
+      <main className="border-8 border-neutral-600 md:px-32">
         <Hero />
         <Contact />
         <Skills />
+        <Experience />
       </main>
     </>
   );
