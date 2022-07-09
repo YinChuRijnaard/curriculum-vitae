@@ -9,7 +9,7 @@ type ExperienceItemProps = {
 
 export const ExperienceItem = (props: ExperienceItemProps) => {
   return (
-    <div>
+    <div className="space-y-2">
       <h1 className="font-bold">
         {props.company}&nbsp;•&nbsp;{props.job}
       </h1>
