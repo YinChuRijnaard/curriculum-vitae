@@ -3,14 +3,6 @@ import { ProjectItem } from "./ProjectItem";
 import { projects } from "../data/projects";
 
 export const Projects = () => {
-  //   const projectsStackMapped = projects.map((project) => {
-  //     const stackMapped = project.stack.map((stackItem) => {
-  //       return <p>{stackItem}</p>;
-  //     });
-
-  //     return stackMapped;
-  //   });
-
   const projectsMapped = projects.map((project) => {
     return (
       <ProjectItem
