@@ -14,6 +14,7 @@ export const Projects = () => {
   const projectsMapped = projects.map((project) => {
     return (
       <ProjectItem
+        key={nanoid()}
         title={project.title}
         description={project.description}
         stack={project.stack}
