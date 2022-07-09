@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import { Hero } from "../components/Hero";
+import { Intro } from "../components/Intro";
 import { Contact } from "../components/Contact";
 import { Skills } from "../components/Skills";
 import { Experience } from "../components/Experience";
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
 
       <main className="border-8 border-neutral-600 md:px-32">
         <Hero />
+        <Intro />
         <Contact />
         <Skills />
         <Experience />
