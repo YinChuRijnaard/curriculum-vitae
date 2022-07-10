@@ -1,4 +1,7 @@
+// Component imports
 import { ContactItem } from "./ContactItem";
+
+// Data imports
 import { contact } from "../data/contact";
 
 export const Contact = () => {

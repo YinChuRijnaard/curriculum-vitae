@@ -1,5 +1,10 @@
+// Framework imports
 import { nanoid } from "nanoid";
+
+// Component imports
 import { ProjectItem } from "./ProjectItem";
+
+// Data imports
 import { projects } from "../data/projects";
 
 export const Projects = () => {
@@ -15,6 +20,7 @@ export const Projects = () => {
       />
     );
   });
+
   return (
     <section className="p-4">
       <h1 className="font-mono text-2xl font-bold text-purple-600">Projects</h1>

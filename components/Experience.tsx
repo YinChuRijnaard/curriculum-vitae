@@ -1,5 +1,10 @@
+// Dependency imports
 import { nanoid } from "nanoid";
+
+// Component
 import { ExperienceItem } from "./ExperienceItem";
+
+// Data imports
 import { experience } from "../data/experience";
 
 export const Experience = () => {

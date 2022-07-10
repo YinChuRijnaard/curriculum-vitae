@@ -1,5 +1,10 @@
+// Framework imports
 import { nanoid } from "nanoid";
+
+// Component imports
 import { SkillItem } from "./SkillItem";
+
+// Data imports
 import { skills } from "../data/skills";
 
 export const Skills = () => {

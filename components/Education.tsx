@@ -1,5 +1,10 @@
+// Dependency imports
 import { nanoid } from "nanoid";
+
+// Component imports
 import { EducationItem } from "./EducationItem";
+
+// Data imports
 import { education } from "../data/education";
 
 export const Education = () => {

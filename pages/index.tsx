@@ -1,6 +1,8 @@
+// Framework imports
 import type { NextPage } from "next";
 import Head from "next/head";
 
+// Component imports
 import { Hero } from "../components/Hero";
 import { Intro } from "../components/Intro";
 import { Contact } from "../components/Contact";
